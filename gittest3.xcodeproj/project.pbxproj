@@ -27,6 +27,7 @@
 		3967DC05258730EF00464456 /* cat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cat.c; sourceTree = "<group>"; };
 		3967DC0E2587312800464456 /* omg */ = {isa = PBXFileReference; lastKnownFileType = text; path = omg; sourceTree = "<group>"; };
 		3967DC0F2587314300464456 /* omgb */ = {isa = PBXFileReference; lastKnownFileType = text; path = omgb; sourceTree = "<group>"; };
+		3967DC10258734AA00464456 /* helo */ = {isa = PBXFileReference; lastKnownFileType = text; path = helo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				3967DC05258730EF00464456 /* cat.c */,
 				3967DC0E2587312800464456 /* omg */,
 				3967DC0F2587314300464456 /* omgb */,
+				3967DC10258734AA00464456 /* helo */,
 			);
 			path = gittest3;
 			sourceTree = "<group>";
