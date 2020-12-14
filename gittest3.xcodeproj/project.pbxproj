@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3967DC06258730EF00464456 /* cat.c in Sources */ = {isa = PBXBuildFile; fileRef = 3967DC05258730EF00464456 /* cat.c */; };
+		3967DC06258730EF00464456 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3967DC05258730EF00464456 /* main.c */; };
+		39F423212587930500983954 /* linked.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F423202587930500983954 /* linked.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +25,12 @@
 
 /* Begin PBXFileReference section */
 		3967DC02258730EF00464456 /* gittest3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gittest3; sourceTree = BUILT_PRODUCTS_DIR; };
-		3967DC05258730EF00464456 /* cat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cat.c; sourceTree = "<group>"; };
+		3967DC05258730EF00464456 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		3967DC0E2587312800464456 /* omg */ = {isa = PBXFileReference; lastKnownFileType = text; path = omg; sourceTree = "<group>"; };
 		3967DC0F2587314300464456 /* omgb */ = {isa = PBXFileReference; lastKnownFileType = text; path = omgb; sourceTree = "<group>"; };
 		3967DC10258734AA00464456 /* helo */ = {isa = PBXFileReference; lastKnownFileType = text; path = helo; sourceTree = "<group>"; };
+		39F4231F2587930500983954 /* linked.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linked.h; sourceTree = "<group>"; };
+		39F423202587930500983954 /* linked.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = linked.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +63,12 @@
 		3967DC04258730EF00464456 /* gittest3 */ = {
 			isa = PBXGroup;
 			children = (
-				3967DC05258730EF00464456 /* cat.c */,
+				3967DC05258730EF00464456 /* main.c */,
 				3967DC0E2587312800464456 /* omg */,
 				3967DC0F2587314300464456 /* omgb */,
 				3967DC10258734AA00464456 /* helo */,
+				39F4231F2587930500983954 /* linked.h */,
+				39F423202587930500983954 /* linked.c */,
 			);
 			path = gittest3;
 			sourceTree = "<group>";
@@ -124,7 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3967DC06258730EF00464456 /* cat.c in Sources */,
+				39F423212587930500983954 /* linked.c in Sources */,
+				3967DC06258730EF00464456 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
